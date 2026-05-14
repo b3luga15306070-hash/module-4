@@ -11,7 +11,7 @@ def add_book():
     for book in books:
         if book["author"] == author and book["title"] == title:
             print("Такая книга уже существует")
-            return
+            return 
 
     books.append({
         "author": author,
