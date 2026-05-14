@@ -65,7 +65,6 @@ def delete_book():
     ]
 
     save_books(books)
-
     print("Книга удалена")
 
 
