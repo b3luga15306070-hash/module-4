@@ -32,10 +32,10 @@ def main():
             add_book()
 
         elif choice == "2":
-            print("Заглушка: показать книги")
+            show_books()
 
         elif choice == "3":
-            print("Заглушка: статистика")
+            average_rating()
 
         elif choice == "4":
             print("Заглушка: удалить книгу")
