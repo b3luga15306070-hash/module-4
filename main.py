@@ -1,6 +1,6 @@
 def save_books(books):
     ...
-  def add_book():
+def add_book():
     books = load_books()
 
     author = input("Автор: ")
@@ -8,19 +8,16 @@ def save_books(books):
     rating = int(input("Оценка: "))
     date = input("Дата: ")
 
-    book = {
+    for book in books:
+        if book["author"] == author and book["title"] == title:
+            print("Такая книга уже существует")
+            return
+
     books.append({
         "author": author,
         "title": title,
         "rating": rating,
         "date": date
-    }
-
-    books.append(book)
-
-    save_books(books)
-
-    print("Книга добавлена")
     })
 
     save_books(books)
