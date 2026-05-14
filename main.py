@@ -38,8 +38,7 @@ def main():
             average_rating()
 
         elif choice == "4":
-            print("Заглушка: удалить книгу")
-
+            delete_book()
         elif choice == "5":
             print("Выход")
             break
