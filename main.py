@@ -81,20 +81,15 @@ def main():
 
         if choice == "1":
             add_book()
-
         elif choice == "2":
             show_books()
-
         elif choice == "3":
             average_rating()
-
         elif choice == "4":
             delete_book()
-
         elif choice == "5":
             print("Выход")
             break
-
         else:
             print("Неверный ввод")
 
