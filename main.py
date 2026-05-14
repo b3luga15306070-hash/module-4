@@ -29,7 +29,7 @@ def main():
         choice = input("Выберите пункт: ")
 
         if choice == "1":
-            print("Заглушка: добавить книгу")
+            add_book()
 
         elif choice == "2":
             print("Заглушка: показать книги")
